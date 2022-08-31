@@ -188,3 +188,17 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+
+.alert-heading{
+  font-weight: bolder;
+}
+
+.fotLog{
+ max-width: 120%;
+}
+
+.centrar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
