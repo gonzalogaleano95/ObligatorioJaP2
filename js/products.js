@@ -1,10 +1,10 @@
-async function arrayAutos(){
+async function array(){
     let response = await fetch(`${PRODUCTS_URL}/101${EXT_TYPE}`);
     let data = await response.json();
     console.log(data.products);
     LoadDescription(data.products)
 }
-arrayAutos();
+array();
 
 function LoadDescription(data){
     for(const item of data){
